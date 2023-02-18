@@ -1,0 +1,37 @@
+
+mkdir gitVideo
+cd gitVideo
+touch index.html app.css
+git init
+
+git add index.html   ---for single file
+git add .            ---- for every thing changes we made
+git commit -m 'add html and css file'       --- for saving insiding git
+
+rm index.html
+touch app.js
+ls
+git add .
+git commit -m 'delete html and add js'
+clear
+git log
+commit a780c700
+commit 566664der567
+
+
+git checkout 566664der567
+ls
+
+
+..................github...............
+#fill the below field on which repository you want to store
+repository name: gitVideo
+Description: githud video tutorial
+
+..
+git init
+git add ReadMe.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https:github.com/lakib2u/gitVideo
+git push -u origin main

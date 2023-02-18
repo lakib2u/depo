@@ -1,0 +1,51 @@
+Simple interest is calculated as principal * rate * time.\
+ To find the interest amount after 50 days for a daily deposit of $50 with a daily interest rate of 5%,
+ you can use the following formula:
+
+principal = 50
+rate = 5 / 100 / 365 (convert annual interest rate to daily interest rate)
+time = 50
+
+simple_interest = principal * rate * time
+
+simple_interest = 50 * (5 / 100 / 365) * 50 = 0.25 * 50 = 12.5
+
+
+....................... for montly calculate ***********
+Simple interest is calculated as principal * rate * time. 
+To find the interest amount after 2 months for a daily deposit of $50 with a monthly interest rate of 5%,
+ you can use the following formula:
+
+principal = 50
+rate = 5 / 100 / 12 (convert annual interest rate to monthly interest rate)
+time = 2
+
+simple_interest = principal * rate * time
+
+simple_interest = 50 * (5 / 100 / 12) * 2 = 0.4167 * 2 = 0.83
+
+
+.........................
+How Does Simple Interest Calculators work?
+The simple interest calculator will show the accrued amount that includes both principal and the interest. The simple interest calculator works on the mathematical formula:
+
+A = P (1+rt)
+
+P = Principal Amount
+R = Rate of interest
+t = Number of years
+A = Total accrued amount (Both principal and the interest)
+
+Interest = A – P.
+
+Let’s understand the workings of the simple interest calculator with an example. The principal amount is Rs 10,000, the rate of interest is 10% and the number of years is six. You can calculate the simple interest as:
+
+A = 10,000 (1+0.1*6) = Rs 16,000.
+
+Interest = A – P = 16000 – 10000 = Rs 6,000.
+
+
+............................................
+https://www.investopedia.com/terms/s/simple_interest.asp
+
+https://www.investopedia.com/terms/y/yieldmaintenance.asp
