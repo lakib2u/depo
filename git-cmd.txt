@@ -23,15 +23,44 @@ git checkout 566664der567
 ls
 
 
+...for switching to new branch
+git switch -c <new-branch-name>
+
 ..................github...............
 #fill the below field on which repository you want to store
 repository name: gitVideo
 Description: githud video tutorial
 
-..
+.. or create a new repository on the command line
 git init
 git add ReadMe.md
 git commit -m "first commit"
+
+git config --global user.email "lakib2u@gmail.com"
+git config --global user.name "lakib2u"
+
 git branch -M main
-git remote add origin https:github.com/lakib2u/gitVideo
+git remote add origin https://github.com/lakib2u/gitVideo.git
 git push -u origin main
+
+..or push an existing repository from the command line
+get remote add orgin https://github.com/lakib2u/gitVideo.git
+git branch -M main
+git push -u orgin main  
+
+
+........................
+
+…or create a new repository on the command line
+echo "# depo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/lakib2u/depo.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/lakib2u/depo.git
+git branch -M main
+git push -u origin main
+…or import code from another repository
